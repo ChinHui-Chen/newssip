@@ -1,0 +1,36 @@
+div.news-desc {
+	font-size:	14pt;
+	padding: 10px;
+	border-bottom: 1px solid;
+	margin:10px;
+}
+
+div.news-desc .news-numbers {
+	font-size: 12pt;
+	float:left;
+	width:120px;
+}
+
+div.news-desc .news-content{
+	margin-left: 120px;
+}
+
+div.news-desc h3{
+	font-size:18pt;
+	color:red;
+	margin: 0px;
+}
+
+div.news-desc p{
+	font-size:16pt;
+	margin: 0px;
+}
+
+div.news-desc .author a{
+	color:olivedrab;
+	font-size:12pt;
+}
+
+div.news-desc .time{
+	font-size:12pt;
+}

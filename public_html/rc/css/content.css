@@ -1,0 +1,171 @@
+section#detail{
+	overflow-y:auto;
+	-webkit-box-flex:1;
+	background-image: -webkit-gradient(linear, left top, right top, from(hsl(210, 40%, 98%)), to(hsl(210, 60%, 93%)));
+	border-left:1px solid hsl(210, 10%, 85%);
+	padding:20px 30px 20px 30px;
+}
+
+section#detail article header{
+	line-height:1;
+}
+
+section#detail article header h1 a:link, section#detail article header h1 a:visited, section#detail article p#detailContent a:link, section#detail article p#detailContent a:visited{
+	text-decoration:none;
+	color:hsl(210, 40%, 40%);
+}
+
+section#detail article header h1 a:hover, section#detail article header h1 a:active, section#detail article header h1 a:focus, section#detail article p#detailContent a:hover, section#detail article p#detailContent a:focus, section#detail article p#detailContent a:active{
+	text-decoration:none;
+	color:hsl(210, 40%, 60%);
+}
+
+section#detail article header h2{
+	margin-top:-5px;
+	font-weight:normal;
+	line-height:0.7;
+}
+
+section#detail article header h2 .detailAuthor{
+	font-size:14px;
+	color:hsl(204, 35%, 50%);
+}
+
+section#detail article header time{
+	font-size:12px;
+	color:hsl(204, 25%, 60%);
+}
+
+section#detail article p#detailContent{
+	margin-top:30px;
+	border-left: 6px solid gray;
+	padding: 12px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+section#detail article footer{
+	margin-top:20px;
+	text-align:center;
+}
+
+section#detail article footer a#reply:link, section#detail article footer a#reply:visited{
+	font-size:larger;
+	text-decoration:none;
+	color:hsl(210,60%,40%);
+	border:1px solid hsl(210, 50%, 50%);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(hsl(0, 0%, 97%)), to(hsl(0, 0%, 90%)));
+	-webkit-border-radius: 6px;
+	padding:4px;
+	-webkit-box-shadow: 0 0 2px 1px hsl(210, 40%, 70%);
+}
+
+section#detail article footer a#reply:hover, section#detail article footer a#reply:active, section#detail article footer a#reply:focus{
+	color:hsl(210,50%,50%);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(hsl(0, 0%, 100%)), to(hsl(0, 0%, 93%)));
+	-webkit-box-shadow: 0 0 4px 2px hsl(210, 40%, 70%);
+}
+
+/* whole file commented out by purincess for future reference */
+/*
+section > section {
+	padding: 10px 20px;
+	background-color: #cbd2d8;
+	background-image: -webkit-gradient(linear, left top, right top, from(#c5ccd4), color-stop(0.75, #c5ccd4), color-stop(0.75, transparent), to(transparent));
+	background-image: -moz-linear-gradient(left, #c5ccd4, #c5ccd4 75%, transparent 75%, transparent);
+	-webkit-background-size: 5px 100%;
+	-moz-background-size: 5px 100%;
+}
+
+section > section > .items{
+	background-color: rgba(255,255,255,0.85);
+	border-bottom: solid 1px rgba(0,0,0,0.5);
+	height:50px;
+	padding: 10px;
+	margin: 0px;
+}
+*/
+/*
+div > aside {
+	font-size: 30pt;
+	color:red;
+	background-color: DarkSlateGray;
+	float:left;
+	width:80px;
+	margin-right:20px;
+}
+*/
+/*
+article > section {
+	display: -webkit-box;
+	-webikit-box-orient: horizontal;
+	-webkit-box-align: stretch;
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-align: stretch;
+	-moz-box-lines: multiple;
+}
+
+section > section {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+}
+
+article > section > aside{
+	width: 200px;
+	border-right: 1px solid #acacac;
+}
+
+article > h2{
+	color:SteelBlue;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+article > h2 a {
+	text-decoration: none;
+	color:blue;
+	border-bottom: 1px solid;
+	border-bottom-color: blue;
+}
+
+article > h2 a:hover {
+	color:black;
+	border-bottom-color: black;
+}
+
+article > div {
+	float:right;
+}
+
+article > div > author {
+	color:green;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+article > div > timestamp {
+	color: gray;
+}
+
+article > div > span {
+	font-size:0.9em;
+	color: gray;
+	margin: 5px;
+}
+
+article > p {
+	font-family: monospace;
+	clear:both;
+	line-height: 120%;
+	padding:5px;
+	margin: 5px;
+	font-size: 1.2em;
+}
+
+.push-comment {
+	font-size: 1.2em;
+}
+
+#postdialog {
+	width:420px;
+}*/

@@ -1,0 +1,140 @@
+aside{
+	overflow-y:auto;
+}
+
+aside#user_nav{
+	/* TODO-purincess: apply MOZ */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(hsl(210, 75%, 85%)));
+	border-right: 1px solid white;
+	width: 140px;	
+}
+
+nav li > a > div{
+	display: -webkit-box;
+	/* TODO-purincess: apply MOZ */
+	-webkit-box-align: stretch;
+	-webkit-box-orient: horizontal;
+}
+
+nav li > a > div > div.NavListItemActualLinkText{
+	/* TODO-purincess: apply MOZ */
+	-webkit-box-flex: 1;
+}
+
+nav li > a {
+	font-size: 1em;
+	text-decoration: none;
+	display: block;
+	padding: 8px 10px;
+	cursor: pointer;
+	padding: 8px;
+	border-bottom: 1px solid #acacac;
+	font-weight: bold;
+	color: rgba(0,0,0,.75);
+	background-color: rgba(255,255,255,0.3);
+}
+
+nav li > a > div > div.NavListItemRightArrow{
+	font: normal 28px/28px Verdana;
+	color: rgba(0,0,0,.5);
+	/* TODO-puricness: apply MOZ */
+	display: -webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	margin-top: -6px;
+	margin-left:3px;
+	min-width:1px;
+	padding-right:3px;
+	padding-left:0px;
+	/* TODO-puricness: apply MOZ */
+	-webkit-transition:all 0.1s linear;
+}
+/*
+nav li > a > div > div.NavListItemActualLinkText:after {
+	content: "›";
+	font: normal 28px/28px Verdana;
+	color: rgba(0,0,0,.5);
+	display: block;
+	float: right;
+	margin-top: -6px;
+	padding-right:3px;
+	/* TODO-puricness: apply MOZ *//*
+	-webkit-transition:padding-right 0.1s linear;
+}*/
+
+nav li > a:hover {
+	/*background-image: -moz-linear-gradient(top, #4286f5, #194fdb);*/
+	/* TODO-purincess: apply MOZ */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(212, 70%, 68%)), to(hsl(218, 60%, 55%)));
+	color: #fff;
+}
+
+nav li > a:hover > div > div.NavListItemRightArrow{
+	color: #fff;
+	padding-right:0px;
+	padding-left:3px;
+}
+
+
+nav li > a > div > div.NavListItemMetaCount{
+	display: -webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	margin-left:-2px;
+	margin-right:5px;
+}
+
+nav li > a > div > div.NavListItemMetaCount > div{
+	font-weight:normal;
+	font-size:smaller;
+	padding:3px 2px 3px 2px;
+	border: 1px solid hsl(60, 50%, 60%);
+	/* TODO-purincess: apply MOZ */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(48, 15%, 98%)), to(hsl(54, 20%, 83%)));
+	-webkit-border-radius:6px;
+	color: hsl(60, 50%, 40%);
+	min-width:20px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+/*nav li > a:hover > div > div.NavListItemActualLinkText:after {
+	color: #fff;
+	padding-right:0px;
+}*/
+
+nav li > .category-root {
+	color:gray;
+	text-align: right;
+	font-size:1.4em;
+}
+
+nav li > .category-root:after {
+	content: "‹";
+	float:left;
+}
+
+aside#second_nav{
+	/* TODO-purincess: apply MOZ */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(hsl(210, 65%, 90%)));
+	border-left:1px solid hsl(210, 20%, 75%);
+	border-right:1px solid white;
+	width: 240px;	
+}
+
+aside#third_nav{
+	/* TODO-purincess: apply MOZ */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(hsl(210, 60%, 93%)));
+	border-left:1px solid hsl(210, 15%, 80%);
+	border-right:1px solid white;
+	width: 240px;	
+}
+
+.listitems {
+	font-size:1.2em;
+}

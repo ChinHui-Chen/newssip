@@ -1,0 +1,16 @@
+div.menu-desc {
+	font-size:	10pt;
+}
+
+div.menu-desc .menu-numbers {
+	float:left;
+	width:60px;
+}
+
+div.menu-desc .menu-content {
+	margin-left:20px;
+}
+
+div.menu-desc .menu-author a{
+	color:olivedrab;
+}

@@ -1,0 +1,46 @@
+div.post-desc {
+	font-size:	14pt;
+	padding: 10px;
+	border-bottom: 1px solid;
+	margin:10px;
+}
+
+div.post-desc .numbers {
+	font-size: 12pt;
+	float:left;
+	width:120px;
+}
+
+div.post-desc .post-content{
+	margin-left: 120px;
+}
+
+div.post-desc h3{
+	font-size:18pt;
+	color:red;
+	margin: 0px;
+}
+
+div.post-desc p{
+	font-size:16pt;
+	margin: 0px;
+}
+
+div.post-desc .author a{
+	color:olivedrab;
+	font-size:12pt;
+}
+
+div.post-desc .time{
+	font-size:12pt;
+}
+
+div.post-detail span {
+	padding: 10pt;
+}
+
+div.post-detail {
+	font-size: 14pt;
+}
+
+
